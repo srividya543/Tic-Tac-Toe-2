@@ -1,0 +1,32 @@
+.body {
+    background-color: rgb(226, 218, 209);
+    }
+    
+    .container {
+      justify-content: center;
+     text-align: center;
+     margin-top: 50px;
+    }
+    .board{
+      justify-content: center;
+      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(3,100px);
+      grid-gap: 5px;
+      margin: 20px auto;
+    }
+    .cell{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      background-color:rgb(179, 199, 232) ;
+      border: 1px solid blanchedalmond;
+      width: 100px;
+      height: 100px;
+  
+    }
+    .button{
+      font-size: 1.5em;
+      padding: 10px 20px;
+      margin-top: 20px;
+    }
